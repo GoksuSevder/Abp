@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>ZZGYazilim.OnMuhasebe</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ZZGYazilim.OnMuhasebe.EntityFrameworkCore\ZZGYazilim.OnMuhasebe.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\ZZGYazilim.OnMuhasebe.TestBase\ZZGYazilim.OnMuhasebe.TestBase.csproj" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+  </ItemGroup>
+
+</Project>

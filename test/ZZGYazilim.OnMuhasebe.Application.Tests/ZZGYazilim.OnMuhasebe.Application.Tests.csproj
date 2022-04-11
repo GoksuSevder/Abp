@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>ZZGYazilim.OnMuhasebe</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ZZGYazilim.OnMuhasebe.Application\ZZGYazilim.OnMuhasebe.Application.csproj" />
+    <ProjectReference Include="..\ZZGYazilim.OnMuhasebe.Domain.Tests\ZZGYazilim.OnMuhasebe.Domain.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+  </ItemGroup>
+
+</Project>
